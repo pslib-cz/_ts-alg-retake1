@@ -4,20 +4,14 @@
 
 > Repozitář obsahuje [AGENTS.md](AGENTS.md) – instrukce pro AI coding agenty, aby studentům při cvičení jen radili a nepsali za ně řešení.
 
+> Repozitář obsahuje [Alg-retake.md](Alg-retake.md) – instrukce pro STUDENTA, jak s úlohou naložit.
+
 ---
 
 ## Jak založit nový projekt
 
 > Potřebujete **Node.js 18+**.
 
-### Doporučený způsob vytvoření projektu
-```
-npm create @pslib/ts-console@latest moje-app
-```
-nebo pro automatickou instalaci závislostí
-```
-npm create @pslib/ts-console@latest moje-app -- --install
-```
 ### První spuštění
 ```
 cd moje-app
