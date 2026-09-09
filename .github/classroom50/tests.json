@@ -1,0 +1,7 @@
+[
+  { "name": "setup", "type": "run", "run": "npm ci", "timeout": 120, "points": 0 },
+  { "name": "sumPoints", "type": "run", "run": "npx vitest run -t sumPoints", "timeout": 30, "points": 25 },
+  { "name": "findBestScore", "type": "run", "run": "npx vitest run -t findBestScore", "timeout": 30, "points": 25 },
+  { "name": "countPassed", "type": "run", "run": "npx vitest run -t countPassed", "timeout": 30, "points": 25 },
+  { "name": "computeAverage", "type": "run", "run": "npx vitest run -t computeAverage", "timeout": 30, "points": 25 }
+]
